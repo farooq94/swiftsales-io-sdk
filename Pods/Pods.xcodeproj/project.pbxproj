@@ -13,13 +13,13 @@
 
 /* Begin PBXFileReference section */
 		186F46A82BD3FA9E11043797169C4726 /* Pods-swiftsales-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swiftsales-ios-sdk-dummy.m"; sourceTree = "<group>"; };
-		4672B4C6EBCC4C3A36B7D7144EC6797A /* libPods-swiftsales-ios-sdk-uikit-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-swiftsales-ios-sdk-uikit-example.a"; path = "libPods-swiftsales-ios-sdk-uikit-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4672B4C6EBCC4C3A36B7D7144EC6797A /* libPods-swiftsales-ios-sdk-uikit-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-swiftsales-ios-sdk-uikit-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CF97C9A2E03D1B27E610E046801836 /* Pods-swiftsales-ios-sdk-uikit-example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swiftsales-ios-sdk-uikit-example-acknowledgements.plist"; sourceTree = "<group>"; };
-		52A5B7A04BBE7B9A1A904CEBB4C14AAC /* libPods-swiftsales-ios-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-swiftsales-ios-sdk.a"; path = "libPods-swiftsales-ios-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A5B7A04BBE7B9A1A904CEBB4C14AAC /* libPods-swiftsales-ios-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-swiftsales-ios-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF0EFE468FF43103880802EF54781BC /* Pods-swiftsales-ios-sdk-uikit-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftsales-ios-sdk-uikit-example.release.xcconfig"; sourceTree = "<group>"; };
 		8DCC15CE7AF3354C4D618B8CF87D6E88 /* Pods-swiftsales-ios-sdk-uikit-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftsales-ios-sdk-uikit-example.debug.xcconfig"; sourceTree = "<group>"; };
 		91C23BBD68382427FC297B0317E0E5EE /* Pods-swiftsales-ios-sdk-uikit-example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swiftsales-ios-sdk-uikit-example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C661A261418F1DBFB4239CF57C4D3665 /* Pods-swiftsales-ios-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftsales-ios-sdk.debug.xcconfig"; sourceTree = "<group>"; };
 		CE82CFE51EFFBE09A69F6B4557FA798D /* Pods-swiftsales-ios-sdk-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swiftsales-ios-sdk-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EC442D59B889FA3FF65D0268EC7C8599 /* Pods-swiftsales-ios-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftsales-ios-sdk.release.xcconfig"; sourceTree = "<group>"; };
@@ -279,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
