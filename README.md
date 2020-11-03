@@ -1,7 +1,7 @@
 # Swift-Chat iOS SDK
 
 ## Requirements
-Swift-Chat iOS SDK requires iOS 11.0 or above, and is compatibile with Swift 5.
+Swift-Chat iOS SDK requires iOS 9.0 or above, and is compatibile with Swift 5.
 
 ## Installation
 ### CocoaPods
