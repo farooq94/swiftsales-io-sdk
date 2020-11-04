@@ -12,7 +12,6 @@ import WebKit
 class SwiftChatProvider : NSObject, WKScriptMessageHandler {
     
     private var webView: WKWebView? = nil
-    
     private static var viewController: UIViewController? = nil
     private static var INSTANCE: SwiftChatProvider? = nil
     
@@ -52,11 +51,9 @@ class SwiftChatProvider : NSObject, WKScriptMessageHandler {
     // static functions
     public static func getWebView(frame: CGRect, viewController: UIViewController) -> WKWebView {
         SwiftChatProvider.viewController = viewController
-        
         if(SwiftChatProvider.INSTANCE == nil) {
             SwiftChatProvider.INSTANCE = SwiftChatProvider(frame: frame)
         }
-        
         return SwiftChatProvider.INSTANCE!.webView!
     }
 }

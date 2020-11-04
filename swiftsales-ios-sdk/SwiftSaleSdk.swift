@@ -8,14 +8,14 @@
 
 import UIKit
 
-public class SwiftSaleSdk {
+@objc public class SwiftSaleSdk: NSObject {
     
     static var userId: Int? = nil
     static var domainName: String? = nil
     
-    private init() {}
+    private override init() {}
     
-    public static func initialize(userId: Int, domainName: String) {
+    @objc public static func initialize(userId: Int, domainName: String) {
         SwiftSaleSdk.userId = userId
         SwiftSaleSdk.domainName = domainName
     }
